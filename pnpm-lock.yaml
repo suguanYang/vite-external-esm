@@ -8,9 +8,6 @@ dependencies:
   semver:
     specifier: ^7.5.4
     version: 7.5.4
-  tslib:
-    specifier: ^2.6.2
-    version: 2.6.2
   vite:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@20.8.6)
@@ -28,6 +25,9 @@ devDependencies:
   rollup:
     specifier: ^3.29.3
     version: 3.29.3
+  tslib:
+    specifier: ^2.6.2
+    version: 2.6.2
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -409,6 +409,7 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
 
   /typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}

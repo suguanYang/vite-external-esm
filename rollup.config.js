@@ -3,7 +3,7 @@ const pkg = require("./package.json");
 
 export default [
   {
-    input: "index.ts",
+    input: "src/index.ts",
     external: ["ms"],
     output: [{ file: pkg.main, format: "cjs" }, { file: pkg.module, format: "esm" }],
     plugins: [typescript()],
