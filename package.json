@@ -24,6 +24,9 @@
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:suguanYang/vite-external-esm.git"
